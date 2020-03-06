@@ -3,4 +3,12 @@
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="DAL\NoSql\NoSqlCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DAL\NoSql\NoSqlConnection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>
